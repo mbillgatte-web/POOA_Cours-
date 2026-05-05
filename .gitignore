@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Fichiers médias (téléchargements des utilisateurs)
+media/
+
+# Environnements virtuels (au cas où vous en créez un plus tard)
+venv/
+env/
+.venv/
+ENV/
+
+# Variables d'environnement (mots de passe, clés secrètes)
+.env
+.env.local
+
+# Fichiers générés par les éditeurs de code (VS Code, PyCharm, etc.)
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
