@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Liste des etudiants  </h1> 
+    <ul>
+        {% for etudiant in etudiants %}
+        <li>{{ etudiant.id }} -- {{ etudiant.nom }} -- {{ etudiant.prenom }} -- {{etudiant.email}} -- {{etudiant.classe}} -- {{etudiant.age}} -- {{etudiant.date_inscription}}</li>
+        {% endfor %}
+    </ul>
+   <boutton> <a href="{{ route }}"> Enregistrer un etudiant </a></boutton>
+   <boutton> <a href="{{ route }}"> Modifier un etudiant </a></boutton>
+   <boutton> <a href="{{ route }}"> Supprimer un etudiant </a></boutton>
+</body>
+</html>
