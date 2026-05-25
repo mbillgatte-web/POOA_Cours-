@@ -21,8 +21,8 @@ from .import views
 urlpatterns = [
    
     path('', views.lister_etudiant, name='lister_etudiant' ),
-    path('Enregistrer', views.enregitrer_etudiant, name='Enregistrer_etudiant' ),
-    path('Modifier/<int:etudiant_id>', views.modifier_etudiant, name='Modifier_etudiant' ),
-    path('Supprimer/<int:etudiant_id>', views.supprimer_etudiant, name='Supprimer_etudiant' ),
+    path('Enregistrer', views.enregistrer_etudiant, name='Enregistrer_etudiant' ),
+    # path('Modifier/<int:etudiant_id>', views.modifier_etudiant, name='Modifier_etudiant' ),
+    # path('Supprimer/<int:etudiant_id>', views.supprimer_etudiant, name='Supprimer_etudiant' ),
     
 ]

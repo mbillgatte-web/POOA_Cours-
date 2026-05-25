@@ -20,7 +20,7 @@ from .import views
 
 urlpatterns = [
    
-    path('', views.Afficher_user, name='Afficher_user' ),
+    # path('', views.Afficher_user, name='Afficher_user' ),
     # path('views/Accueil',views.Accueil , name= 'Accueil'),
     # path('views/Connexion',views.Connexion , name= 'Connexion')
 ]

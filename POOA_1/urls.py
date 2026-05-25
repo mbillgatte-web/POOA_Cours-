@@ -20,9 +20,10 @@ from .import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.Index, name='Index' ),
+    # path('', views.Index, name='Index' ),
     path('monapplication/', include('monapplication.urls')),
     path('composant_1/', include('composant_1.urls')),
+    path('Gestion_etudiant/', include('Gestion_etudiant.urls')),
     # path('views/Accueil',views.Accueil , name= 'Accueil'),
     # path('views/Connecion',views.Connexion , name= 'Connexion')
 ]
